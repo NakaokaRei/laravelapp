@@ -8,7 +8,7 @@ class HelloController extends Controller
 {
 
   public function index(){
-    $data = ['msg'=>'これはbladeを使ったサンプルです。'];
+    $data = ['msg'=>'これはbladeを使ったサンプルですよ。'];
     return view('hello.index', $data);
 
   }
