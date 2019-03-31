@@ -10,12 +10,11 @@
   </head>
   <body>
     <h1>Blade/Index</h1>
-    <p>{{$msg}}</p>
-    <form action="/hello" method="post">
-      {{csrf_field()}}
-      <input type="text" name="msg">
-      <input type="submit">
-    </form>
-
+    <p>foreachの例</p>
+    <ol>
+      @foreach($data as $item)
+      <li>{{$item}}</li>
+      @endforeach
+    </ol>
   </body>
 </html>
