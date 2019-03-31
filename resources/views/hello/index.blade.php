@@ -10,7 +10,7 @@
   </head>
   <body>
     <h1>Blade/Index</h1>
-    <p>foreachの例です</p>
+    <p>foreachの例ですよ。</p>
     <ol>
       @foreach($data as $item)
       <li>{{$item}}</li>
